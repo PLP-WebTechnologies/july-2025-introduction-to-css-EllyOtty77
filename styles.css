@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Navigation */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #2e7d32;
+}
+
+/* Content area */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Card sections */
+.card {
+  background: white;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Box Model Example */
+.box-example {
+  background: lightblue;
+  padding: 20px;      /* inside space */
+  margin: 15px 0;     /* outside space */
+  border: 3px solid #333; /* border */
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
